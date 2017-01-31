@@ -1,0 +1,12 @@
+To list available jobs to download:
+
+    ace_seq_job_downloader.py -u username  
+
+or to avoid a password prompt:
+
+    ACEPASSWORD="mypassword" ace_seq_job_downloader.py -u username
+
+To download jobs:
+
+    ACEPASSWORD="mypassword" ace_seq_job_downloader.py -u username -j job_id [job_id]
+ 
