@@ -119,6 +119,7 @@ def main(args):
         print 
         print "Found {0} jobs: {1}".format(len(found_jobs), ", ".join(found_jobs))
         print "Use the -j flag to download.\n"
+        sys.exit(0)
    
     if os.path.exists("ace_sequencing") and not args.f:
         print "ace_sequencing directory exists and -f flag not present. Exiting...."
