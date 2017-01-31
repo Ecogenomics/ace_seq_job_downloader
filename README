@@ -1,3 +1,5 @@
+This script requires Python 2 and curl.
+
 To list available jobs to download:
 
     ace_seq_job_downloader.py -u username  
